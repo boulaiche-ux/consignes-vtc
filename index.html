@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consignes VTC</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+    }
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      height: 100vh;
+    }
+    .slider img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+      scroll-snap-align: start;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <img src="consigne1.jpg" alt="Consignes VTC 1">
+    <img src="consigne2.jpg" alt="Consignes VTC 2">
+  </div>
+</body>
+</html>
